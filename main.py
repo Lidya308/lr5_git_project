@@ -1,9 +1,13 @@
-def new_calculation_function(a, b):
-    """Новая функция для демонстрации Git"""
-    return a * b + 10
+# Добавьте эту функцию в ваш main.py
+def calculate_power(base, exponent):
+    """Вычисляет степень числа"""
+    return base ** exponent
 
-# Измените основной код
+
+# И измените основной код, чтобы использовать новую функцию
 if __name__ == "__main__":
-    print("Добавлена новая функциональность!")
-    result = new_calculation_function(5, 3)
-    print(f"Результат: {result}")
+    print("Калькулятор с новыми функциями!")
+
+    # Пример использования новой функции
+    result = calculate_power(2, 3)
+    print(f"2 в степени 3 = {result}")

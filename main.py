@@ -10,4 +10,4 @@ if __name__ == "__main__":
 
     # Пример использования новой функции
     result = calculate_power(2, 3)
-    print("Версия из conflict-branch!")
+    print("Версия из master!")
